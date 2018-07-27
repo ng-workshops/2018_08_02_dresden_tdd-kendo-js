@@ -1,0 +1,20 @@
+{
+  "name": "tdd-kendo-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "light-server -s . & opn http://127.0.0.1:4000/tests/SpecRunner.html & wait",
+    "tdd": "light-server -s . -q -w \"**/*.js, **/*.html\" & opn http://127.0.0.1:4000/tests/SpecRunner.html & wait",
+    "start": "light-server -s . & opn http://127.0.0.1:4000/src/index.html & wait"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jasmine": "2.8.8",
+    "@types/jquery": "3.3.5",
+    "light-server": "2.5.1",
+    "opn-cli": "3.1.0"
+  },
+  "dependencies": {}
+}

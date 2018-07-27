@@ -1,0 +1,34 @@
+.form {
+  padding: 0 2em;
+}
+
+.form:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+dt,
+dd {
+  float: left;
+  margin-top: 1em;
+}
+
+dt {
+  clear: left;
+  text-align: right;
+  width: 6em;
+  margin-right: 2em;
+  line-height: 2.4;
+}
+
+.grid {
+  margin: 2em;
+}
