@@ -22,8 +22,10 @@ require.config({
   }
 });
 
+var SPECS = ['index.spec', 'form/form.model.spec', 'validation/tdd.spec'];
+
 require(['jasmine-boot'], function() {
-  require(['index.spec', 'form/form.model.spec', 'validation/tdd.spec'], function() {
+  require(SPECS, function() {
     //trigger Jasmine
     window.onload();
   });
